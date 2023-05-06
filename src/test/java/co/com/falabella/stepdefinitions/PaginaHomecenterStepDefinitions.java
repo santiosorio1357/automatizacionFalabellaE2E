@@ -33,6 +33,7 @@ public class PaginaHomecenterStepDefinitions {
     public void estaPaginaHomecenter(Actor actor) {
         // Write code here that turns the phrase above into concrete actions
         actor.attemptsTo(
+                Click.on(OK_SALTAR),
                 Ensure.that(IMAGE_HOMECENTER).isDisplayed()
         );
     }

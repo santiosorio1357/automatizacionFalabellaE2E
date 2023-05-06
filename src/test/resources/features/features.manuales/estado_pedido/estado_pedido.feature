@@ -1,4 +1,5 @@
 #language: es
+Característica: Estado de un pedido
 
   @Manual
     Escenario: Consultar el estado de un pedido en la página de Falabella

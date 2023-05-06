@@ -1,4 +1,5 @@
 #language: es
+Característica: Registrar usuario
   @Manual
     Escenario: Registrarse como nuevo usuario en la página de Falabella
     Dado que Santiago desea registrarse como nuevo usuario en Falabella

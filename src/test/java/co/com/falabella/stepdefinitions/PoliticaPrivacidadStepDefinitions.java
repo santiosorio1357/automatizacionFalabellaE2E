@@ -31,8 +31,9 @@ public class PoliticaPrivacidadStepDefinitions {
     @Entonces("{actor} debe encontrar las politicas de privacidad")
     public void Acordion_TYC(Actor actor) {
         actor.attemptsTo(
-                Click.on(OK_SALTAR),
+                Click.on(OK_SALTAR)
                 Ensure.that(ACCORDEON_POLITICA_DE_PRIVACIDAD).textValues().hasSizeGreaterThanOrEqualTo(23)
+
         );
     }
 }
